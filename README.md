@@ -11,8 +11,10 @@ VRChat ワールド向けのなでなで音ギミック「World Nadenade」（Si
    https://silent-dandy.github.io/vpm/index.json
    ```
    [https://silent-dandy.github.io/vpm/](https://silent-dandy.github.io/vpm/) の **Add to VCC** ボタンからも追加できます。
-2. 同じ画面で、tmp-fallback-fonts-jp のリポジトリ `https://vpm.narazaka.net/` も追加します。
+2. 同じ画面で、フォントのパッケージ（TextMesh Pro VRC Fallback Font JP）のリポジトリ `https://vpm.narazaka.net/index.json` も追加します。
 3. プロジェクトの Manage Project から **World Nadenade** を追加します。
+
+BOOTH で配布しているインストーラー（unitypackage）をインポートしても、同じように入ります。
 
 使い方は、パッケージに入っている `README.md` のクイックスタートと、マニュアルをご覧ください。
 
