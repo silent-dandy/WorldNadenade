@@ -20,7 +20,7 @@ BOOTH で配布しているインストーラー（unitypackage）をインポ�
 
 - マニュアル：https://silent-dandy.github.io/world-nadenade/
 - 利用規約：https://silent-dandy.github.io/world-nadenade/terms.html
-- お問い合わせ：X @silent_dandy_vr（https://x.com/silent_dandy_vr）
+- お問い合わせ：X @silent_dandy_vr https://x.com/silent_dandy_vr
 
 ## 利用規約について
 
