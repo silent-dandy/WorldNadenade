@@ -1,0 +1,39 @@
+# 改行コードは Git に任せる（リポジトリ内は LF）
+* text=auto
+
+# スクリプト
+*.cs        text diff=csharp
+*.shader    text
+*.cginc     text
+*.hlsl      text
+*.asmdef    text
+*.json      text
+*.md        text
+
+# Unity の YAML（Force Text で保存したもの）。
+# unityyamlmerge を設定していない環境では、通常のテキストのマージになる
+*.unity     text eol=lf merge=unityyamlmerge
+*.prefab    text eol=lf merge=unityyamlmerge
+*.asset     text eol=lf merge=unityyamlmerge
+*.mat       text eol=lf merge=unityyamlmerge
+*.anim      text eol=lf merge=unityyamlmerge
+*.controller text eol=lf merge=unityyamlmerge
+*.meta      text eol=lf merge=unityyamlmerge
+*.physicMaterial text eol=lf merge=unityyamlmerge
+
+# バイナリ（差分を取らない）
+*.wav       binary
+*.ogg       binary
+*.mp3       binary
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.psd       binary
+*.tga       binary
+*.exr       binary
+*.fbx       binary
+*.ttf       binary
+*.otf       binary
+
+# このリポジトリでは Git LFS を使わない。
+# リリースの Actions は LFS を取得しないので、LFS にした音源や画像は中身の無いファイルのまま zip に入ってしまう

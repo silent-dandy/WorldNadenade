@@ -1,0 +1,17 @@
+{
+  "name": "com.silentcomfort.worldnadenade",
+  "displayName": "World Nadenade",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "ワールドに置くだけのなでなで音ギミック",
+  "author": { "name": "Silent Comfort", "url": "https://silent-dandy.github.io/" },
+  "documentationUrl": "https://silent-dandy.github.io/world-nadenade/",
+  "licensesUrl": "https://silent-dandy.github.io/world-nadenade/terms.html",
+  "vpmDependencies": {
+    "com.vrchat.worlds": "^3.10.5",
+    "net.narazaka.vrchat.tmp-fallback-fonts-jp": "^1.0.2"
+  },
+  "legacyFolders": {
+    "Assets\\SilentComfort\\WorldNadenade": "0679bc4450efd2c428c4e21e2f189e2b"
+  }
+}

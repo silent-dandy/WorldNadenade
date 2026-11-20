@@ -1,0 +1,19 @@
+{
+    "name": "SilentComfort.WorldNadenade.Editor",
+    "rootNamespace": "SilentComfort.WorldNadenade",
+    "references": [
+        "SilentComfort.WorldNadenade",
+        "UdonSharp.Runtime",
+        "UdonSharp.Editor",
+        "VRC.Udon"
+    ],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
