@@ -5,7 +5,8 @@
         "SilentComfort.WorldNadenade",
         "UdonSharp.Runtime",
         "UdonSharp.Editor",
-        "VRC.Udon"
+        "VRC.Udon",
+        "VRC.SDKBase.Editor"
     ],
     "includePlatforms": ["Editor"],
     "excludePlatforms": [],
